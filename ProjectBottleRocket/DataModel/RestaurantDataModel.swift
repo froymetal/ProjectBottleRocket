@@ -8,10 +8,10 @@
 import Foundation
 
 struct RestaurantData: Decodable {
-    let restaurants: [Restaurant]
+    let restaurants: [Restaurants]
 }
 
-struct Restaurant: Decodable {
+struct Restaurants: Decodable {
     let name: String
     let backgroundImageURL: String
     let category: String

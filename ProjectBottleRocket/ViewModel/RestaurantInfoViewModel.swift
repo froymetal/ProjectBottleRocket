@@ -9,10 +9,10 @@ import Foundation
 
 class RestaurantInfoViewModel {
     
-    internal let model: Restaurant
+    internal let model: Restaurants
     private let service: NetworkServiceApi
     
-    init(restaurant: Restaurant, service: NetworkServiceApi) {
+    init(restaurant: Restaurants, service: NetworkServiceApi) {
         self.model = restaurant
         self.service = service
     }
